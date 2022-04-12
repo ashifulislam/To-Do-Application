@@ -16,3 +16,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/to_do_view','ToDoController@toDoView')->name('to_do_view');
